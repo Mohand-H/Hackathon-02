@@ -1,8 +1,19 @@
 .navbar-nav {
-    padding-left: 10rem
+    padding-left: 5rem
 }
 
 li {
-    padding-left: 5rem;
-    font-size:1.5rem;
+    padding: 1rem;
+    font-size:1.1rem;
+    
 }
+
+.navbar {
+    font-family: 'Codystar', cursive;
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+    color: #f442bc;
+    font-weight: bolder;
+}
+
