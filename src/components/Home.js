@@ -11,7 +11,7 @@ import Find from './Find.js'
 class Home extends Component {
 render(){
     return(
-        <div container-fluid>
+        <div class='navBar' container-fluid>
          <Grid>
              <Navbar />
             
