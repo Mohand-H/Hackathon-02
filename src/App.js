@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import Data from "./data/dataApi"
-import Navbar from './components/navbar'
+import Data from './data/dataApi'
+import Navbar from './components/navbar';
 import './components/navbar.css';
 import {BrowserRouter as Router, Switch} from "react-router-dom"
 import Route from 'react-router-dom/Route'
@@ -16,7 +16,8 @@ class App extends Component {
   render() {
     return (
       <div>
-
+      
+   
   <Router>
     <Switch>
   <Route exact path="/" component={Home}/>
