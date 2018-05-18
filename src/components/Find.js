@@ -12,6 +12,7 @@ class Profils extends Component {
         super(props);
         this.state = {
           profils: []
+          
         }
       }
 
@@ -37,6 +38,7 @@ class Profils extends Component {
       }
     
     render(){
+        
         return(
             <div class="row">
                 <Navbar />
