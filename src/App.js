@@ -11,6 +11,7 @@ import Route from 'react-router-dom/Route'
 import Home from './components/Home'
 // import Find from './components/Find.js'
 import WhichOne from './components/WhichOne'
+import Profils from './components/Find.js'
 
 class App extends Component {
   render() {
@@ -19,7 +20,7 @@ class App extends Component {
       <Router>
         <Switch>
          <Route exact path="/" component={Home}/>
-         {/* <Route path="/Find" component={Find}/> */}
+         <Route path="/Find" component={Profils}/> 
         </Switch>
       </Router>
      </div>
