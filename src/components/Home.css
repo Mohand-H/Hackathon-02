@@ -1,0 +1,22 @@
+/*.hpic {
+    display: none;
+    top: 3px;
+
+    }
+
+.navi {
+    z-index: -2;
+}*/
+
+body {
+    background-image: url("https://image.noelshack.com/fichiers/2018/20/4/1526582775-galaxy-love-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+    justify-content: center;
+}
+
+.galaxy-pic {
+    width: 100%;
+    height: auto;
+}

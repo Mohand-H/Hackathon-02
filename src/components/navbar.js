@@ -27,7 +27,7 @@ class Navbar extends Component {
         <Link className="nav-link" to="/Find">Find The Love</Link>
       </li>
       <li class="nav-item">
-        <Link className="nav-link" to="/">Pricing</Link>
+        <Link className="nav-link" to="/">Match</Link>
       </li>
       <li class="nav-item dropdown">
         <Link className="nav-link dropdown-toggle" to="/" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
